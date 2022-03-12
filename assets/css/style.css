@@ -1,0 +1,173 @@
+/*Configurações Gerais*/
+*{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    width: 70%;
+    margin-left: 15%;
+    height: 150px;
+    background: linear-gradient(to right, #008080, #40E0D0);
+    font-size: 25px;
+    margin-top: -10px;
+}
+body{
+    background-image: url("../imagens/fundo.jpg");
+}
+footer{
+    width: 70%;
+    height: 150px;
+    margin-left: 15%;
+    background: linear-gradient(to right, #008080, #40E0D0);
+    margin-top: -16px;
+    text-align: center;
+}
+
+/*Configurações por class*/
+
+/*Cabeçalho*/
+.logo{
+    float: left;
+    margin-left: 10px;
+}
+.cabecalho img{
+    width: 150px;
+    height: 150px;
+}
+.cabecalho p{
+    float: left;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.cabecalho a{
+    float: right;
+    padding: 10px;
+    margin-top: 45px;
+    text-decoration: none;
+    Color: black;
+}
+.cabecalho a:hover{
+    color: white;
+}
+
+/*Fim do Cabeçalho*/
+
+/*Conteudo*/
+
+#menu{
+    font-size: 25px;
+}
+#menu a{
+    text-decoration: none;   
+    margin-left: 45px;
+    color: blue;
+}
+#menu a:hover{
+    color: white;
+}
+.conteudo{
+    width: 70%;
+    margin-left: 15%;
+    padding: 3;
+    background: gray;
+    margin-top: -20px;
+    height: 725px;
+}
+.title{
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 40px;
+}
+.title p{
+    font-size: 20px;   
+}
+.card{
+    width: 29%;
+    height: 85%;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    background: #B0C4DE;
+    border-radius: 10px;                
+}
+.card img{
+    width: 100%;
+    height: 400px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.formulario{
+    padding: 60px;
+    font-size: 25px;
+}
+.formulario input, button{
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+
+}
+.formulario select{
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+.doadores{
+    font-size: 25px;
+    text-align: center;
+}
+/*Fim do Conteudo*/
+
+/*Início do Rodapé*/
+.rodape{
+    font-size: 20px;
+}
+.iconesSociais{
+    font-size: 2.0em;
+}
+.iconesSociais a{
+    color: blue;
+    margin-right: 15px;
+}
+.iconesSociais i:hover{
+    color: white;
+}
+
+/*Fim Rodapé*/
+
+/*Config page Quem Somos */
+
+.conteudo1{
+    width: 70%;
+    margin-left: 15%;
+    padding: 3;
+    background: gray;
+    margin-top: -20px;
+    height: 600px;
+}
+.card1{
+    width: 29%;
+    height: 85%;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    background: #B0C4DE;
+    border-radius: 10px;                
+}
+.card1 img{
+    width: 100%;
+    height: 300px;
+}
+.card1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Fim config page Quem somos*/
